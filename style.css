@@ -1,3 +1,30 @@
-html{
-  font-family: Helvetica;
+body {
+	background-color: #f8f8f8;
+}
+img {
+	width: 250px;
+	border-radius: 50%;
+}
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat";
+}
+#landing, #gallery {
+  height: 60vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	color: #fff;
+}
+h2 {
+	color: #007bff;
 }
